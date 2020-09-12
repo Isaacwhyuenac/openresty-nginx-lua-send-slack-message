@@ -7,5 +7,7 @@ services:
       context: .
       args:
       - RESTY_RPM_FLAVOR="-debug"
+    environment:
+      - NGINX_ENV=${NGINX_ENV}
     ports:
     - '${PORT}:80'
