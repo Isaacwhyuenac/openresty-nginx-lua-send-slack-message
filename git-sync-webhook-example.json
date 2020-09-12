@@ -1,0 +1,23 @@
+{
+  "path": "/",
+  "headers": {
+    "host": "localhost:80",
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "0",
+    "gitsync-hash": "0e2f83a5784ba508fae638ebd32e1c555303511a",
+    "accept-encoding": "gzip"
+  },
+  "method": "POST",
+  "body": "",
+  "cookies": null,
+  "fresh": false,
+  "hostname": "localhost",
+  "ip": "::ffff:127.0.0.1",
+  "ips": [],
+  "protocol": "http",
+  "query": {},
+  "subdomains": [],
+  "xhr": false,
+  "os": { "hostname": "airflow-dags-sync-poc-8458698749-t6ksp" },
+  "connection": { "servername": null }
+}

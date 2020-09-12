@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  openresty:
+    container_name: mycontainer
+    build:
+      context: .
+      args:
+      - RESTY_RPM_FLAVOR="-debug"
+    ports:
+    - '${PORT}:80'
